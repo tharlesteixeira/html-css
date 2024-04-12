@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens,audios e videos</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <p>tente abrir esse site em varios dispiositivos diferentes ou diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem dinamica">
+    </picture>
+    <h2>reproduzindo audios</h2>
+    <p>vamos aprender a reproduzir audios em html 5</p>
+    <audio controls>
+        <source src="audio/Já Estive Em Outros Lugares _ ONE Sounds _ Alessandro Vilas Boas _ (NOSSA CANÇÃO LIVE)(MP3_160K).wav" type="audio/wav">
+        <source src="audio/Já Estive Em Outros Lugares _ ONE Sounds _ Alessandro Vilas Boas _ (NOSSA CANÇÃO LIVE)(MP3_160K).ogg" type="audio/ogg">
+        <source src="audio/Já Estive Em Outros Lugares _ ONE Sounds _ Alessandro Vilas Boas _ (NOSSA CANÇÃO LIVE)(MP3_160K).mp3" type="audio/mpeg">
+        <p>Seu navegador não é compativel. <a href="audio/Já Estive Em Outros Lugares _ ONE Sounds _ Alessandro Vilas Boas _ (NOSSA CANÇÃO LIVE)(MP3_160K).mp3">clique aqui para baixar o audio</a></p>
+    </audio>
+
+    <h2>videos em html</h2>
+    <p>esse video esta hospedado em meu proprio servidor</p>
+    <video width="700px" controls poster="">
+        <source src="videos/video demonstrativo HD.mp4v" type="video/mp4v">
+        <source src="videos/video demonstrativo HD.webm" type="video/webm">
+        <source src="videos/video demonstrativo HD.ogv" type="video/ogv">
+        <source src="videos/video demonstrativo HD.mp4" type="video/mp4">
+        <p>Seu navegador não é compativel</p>
+    </video>
+    <h2>videos em html</h2>
+    <p>inserindo videos do youtube</p>
+    <iframe width="700" height="315" src="https://www.youtube.com/embed/ScFiSsSh0VU?si=RUpjRCnRpxRJn7tr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h2>inserindo video do vimeo</h2>
+    <iframe src="https://player.vimeo.com/video/915873558?h=5208093770&byline=0&portrait=0" width="700" height="394" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/915873558">Welcome Back to Earth</a> from <a href="https://vimeo.com/martindethurah">martin de thurah</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+</body>
+</html>

@@ -1,0 +1,124 @@
+@charset "utf-8";
+@font-face {
+    font-family: idroid ;
+    src: url("fontes/idroid.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    margin: 0;
+    background-color: rgb(154, 212, 226);
+    
+}
+header{
+    background-image: linear-gradient(to top, #003D14, #23e92a9a);
+    padding-top: 10PX;
+}
+h1{
+    font-family: "idroid" ;
+}
+h2{
+    font-family: "idroid" ;
+}
+h1#principal{
+    text-align: center;
+    color: white;
+}
+h2.titulo2{
+    text-align: center;
+    color: rgba(255, 160, 122, 0.295);
+    font-family: sans-serif;
+}
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+a{
+    color: #09b643;
+    text-decoration: none;
+}
+a.nav{
+    background-color: #09b6434d;
+}
+a:hover{
+    text-decoration: underline;
+    color: #09b643;
+}
+nav{
+    text-align: left;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.493) ;
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+    transition-duration: 0.3s;
+}
+nav > a:hover{
+    text-decoration: none;
+    background-color: #063d1e;
+    color: #1a5c37 ;
+}
+main{
+    border-top: 60px;
+    background-color: white;
+    padding: 60px;
+    margin: 60px;
+    padding-top: 5px;
+    margin-top: 1px;
+}
+img{
+    width: 100%;
+}
+img.imagem3{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+iframe{
+    width: 100%;
+}
+main > section > article > h2{
+    color: #09b643;
+}
+section{
+    align-items: center;
+}
+main > section > article > h1{
+    color: rgb(11, 68, 11);
+}
+main > section > article > aside{
+    background-color: rgba(32, 189, 32, 0.425);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.308);
+
+}
+main > section > article > aside > div{
+    background-color: #003d14;
+    border-radius: 10px;
+}
+aside{
+    border-radius: 10px;
+}
+aside > ul{
+    list-style-type: "\2714\00a0" ;
+    columns: 2;
+}
+main > section > article > aside > div > h1.ultimo{
+    color: rgba(89, 255, 48, 0.589);
+    font-family: sans-serif;
+}
+footer{
+    background-color: #003D14;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0;
+}
+footer > p{
+    margin: 0;
+}

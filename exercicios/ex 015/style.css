@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+body{
+    background-color: rgb(167, 243, 167);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#principal{
+    font: normal 3em serif;
+    text-align: center;
+    color: white;
+}
+
+h1{
+    color:gold ;
+}
+
+.basico{
+    font: normal 2em arial, helvetica, sans-serif ;
+    color: brown;
+}
+
+.intermediario{
+    font: normal 2em arial, helvetica, sans-serif ;
+    color: darkorchid;
+}
+
+.avançado{
+    font: normal 2em arial, helvetica, sans-serif ;
+    color: dodgerblue;
+}
+.destaque{
+    background-color: rgba(40, 40, 233, 0.61);
+}
+h2{
+    color: rgb(0, 252, 0);
+}

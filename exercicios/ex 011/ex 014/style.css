@@ -1,0 +1,16 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@font-face {font-family: Devil candle ;
+    src: url('fontes/DevilCandle_PERSONAL_USE_ONLY.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    font: normal bolder 1em 'Work Sans', sans-serif;
+}
+h1, h2{
+    font: normal normal 3em 'Devil candle', sans-serif; 
+}
