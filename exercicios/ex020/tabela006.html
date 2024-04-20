@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas responsiva</title>
+    <style>
+       body{
+        font-family: Arial, Helvetica, sans-serif;
+       } 
+       table{
+        border-collapse: collapse;
+       }
+       caption{
+        font-size: 1.2em;
+        font-weight: bold;
+        padding: 10px;
+       }
+       th, td {
+        text-align: center;
+        border: 1px solid black;
+        padding: 10px;
+       }
+     tr:nth-child(2n){
+        background-color: rgba(255, 0, 0, 0.438);
+     }
+     #destaque{
+        overflow-x: auto;
+     }
+    </style>
+</head>
+<body>
+    <h1>tabelas em telas pequenas</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia doloremque in, eos ipsa corporis omnis libero dolorem, voluptas natus voluptatem minus hic, unde iste reprehenderit quaerat accusantium laborum incidunt nesciunt!</p>
+    <div id="destaque">
+        <table>
+            <caption>Tabelas responsivas</caption>
+            <thead>
+                <tr>
+                    <th>Proutos</th>
+                    <th>Jan</th>
+                    <th>Fer</th>
+                    <th>Mar</th>
+                    <th>Abr</th>
+                    <th>Mai</th>
+                    <th>Jun</th>
+                    <th>Jul</th>
+                    <th>Ago</th>
+                    <th>Set</th>
+                    <th>Nov</th>
+                    <th>Dez</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>A</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    
+                </tr>
+                <tr>
+                    <td>B</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
