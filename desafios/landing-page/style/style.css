@@ -6,6 +6,7 @@ body{
     color: white;
     margin: 10px;
     padding: 10px;
+    position: relative;
 }  
 p > strong {
     color: yellow;
