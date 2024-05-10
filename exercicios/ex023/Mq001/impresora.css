@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/*Estilo para impresora*/
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+html {
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5em;
+}
+
+menu {
+    display: none;
+}
+
+article::after{
+    content: 'Esse artigo foi criado por Tharles por fins educacionais';
+    width: 100%;
+}
