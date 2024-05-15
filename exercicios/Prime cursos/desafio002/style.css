@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    text-align: center center;
+}
+
+.container{
+    margin: auto;
+    width: 100vw;
+}
+
+.topo{
+    width: 100vw;
+    height: 100px;
+    margin-bottom: 1px;
+    background-color: rgb(38, 38, 255);
+}
+
+.menu{
+    width: 100vw;
+    height: 30px;
+    margin-bottom: 1px;
+    float: top;
+    background-color: rgb(2, 232, 248);
+}
+
+.centro{
+    width: 90vw;
+    height: 100vh;
+    background-color: rgb(91, 27, 194);
+    float: left;
+    margin-right: 2px;
+}
+
+.direita{
+    height: 100vh;
+    background-color: rgb(128, 0, 107);
+}
+
+.rodape{
+    width: 100vw;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
